@@ -28,6 +28,45 @@
   color: #61dafb;
 }
 
+.note-item {
+  background-color: #aaa3ea;
+  border: 1px solid #c41010;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: #dc3545; /* Red */
+  color: white; /* Text color */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #3559dc; /* Red */
+  color: white; /* Text color */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sno-label {
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+
+
+.note-button:hover {
+  background-color: #a30c0c;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
